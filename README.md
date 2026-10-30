@@ -15,7 +15,7 @@ Python · PySpark / Spark MLlib · scikit-learn · pandas · NumPy · Matplotlib
 5. **Models:** Logistic Regression and Random Forest in both tools. PySpark MLlib trained on the full 1M rows; scikit-learn on a ~60,000-row random sample (single-node memory limits).
 6. **Metrics:** AUC, accuracy, F1, precision, recall, training time.
 
-## Results (from the final notebook and paper)
+## Results
 | Model | Tool | AUC | Accuracy | F1 | Precision | Recall | Train time |
 |---|---|---|---|---|---|---|---|
 | Logistic Regression | PySpark MLlib | **0.7617** | 0.7955 | 0.7575 | 0.7880 | 0.7955 | 10.1 s |
